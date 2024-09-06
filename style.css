@@ -1,0 +1,156 @@
+/* General styles */
+body {
+    font-family: 'Raleway', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: skyblue;
+}
+
+h1, h2, h3 {
+    font-weight: 600;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #006400;
+}
+
+.nav-link {
+    color: white;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.nav-link:hover {
+    color: #f0e68c;
+}
+
+.navbar-brand {
+    color: white;
+    font-weight: bold;
+}
+
+.navbar-toggler-icon {
+    background-color: white;
+}
+
+/* Hero Section */
+.hero-section {
+    background: url('./Images/keralabg.jpg') no-repeat center center/cover;
+    height: 100vh;
+    text-align: center;
+}
+
+.hero-section h1 {
+    font-size: 4rem;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+.hero-section p {
+    font-size: 1.5rem;
+}
+
+.hero-section .btn {
+    font-size: 1.2rem;
+    padding: 10px 20px;
+}
+
+.hero-section .btn-primary {
+    background-color: #006400;
+    border-color: #006400;
+}
+
+.hero-section .btn-primary:hover {
+    background-color: #004d00;
+}
+
+/* Carousel Section */
+.carousel-section h2 {
+    margin-bottom: 50px;
+    font-size: 2.5rem;
+    color: #333;
+}
+
+.carousel-item img {
+    max-height: 450px;
+    object-fit: cover;
+}
+
+.carousel-caption h5 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.carousel-caption p {
+    font-size: 1.25rem;
+}
+
+/* About Section */
+.about-section h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.about-section p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+}
+
+.about-section img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Personal Details Form */
+.personal-details-form h2 {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+form .form-control {
+    border-radius: 5px;
+}
+
+form .btn-primary {
+    background-color: #006400;
+    border-color: #006400;
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    width: 100%;
+}
+
+form .btn-primary:hover {
+    background-color: #004d00;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .hero-section h1 {
+        font-size: 3rem;
+    }
+
+    .hero-section p {
+        font-size: 1.25rem;
+    }
+
+    .about-section img {
+        margin-bottom: 20px;
+    }
+}
